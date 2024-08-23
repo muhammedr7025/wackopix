@@ -8,9 +8,10 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Service />
+      
       <Slider />
       <Showcase />
+      <Service />
       <Footer />
     </>
   );
