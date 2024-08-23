@@ -18,8 +18,9 @@ export default function Hero() {
                     />
                 </video>
                 <div className={styles.stats}>
-                    <span>1000+ Clients</span>
-                    <span>5 years exp</span>
+                    <span>2000+ Clients</span>
+                    <span>5+ years of service
+                    </span>
                 </div>
             </div>
             <div className={styles.heroContent}>
