@@ -29,7 +29,7 @@ export const projects = [
     img: dummy,
     title: "Drishti Pro show",
     desc: "",
-    youtube: "cMUdDv2bXdY?feature=share",
+    youtube: "shorts/cMUdDv2bXdY?feature=share",
   },
   {
     img: dummy,
