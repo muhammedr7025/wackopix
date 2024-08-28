@@ -75,7 +75,7 @@ export default function Navbar() {
                     <div className={styles.linkBlocks}>
                         <Link href="#services" className={styles.link} onClick={handleLinkClick}><b>Services</b></Link>
                         <Link href="#works" className={styles.link} onClick={handleLinkClick}><b>Works</b></Link>
-                        <Link href="#" className={styles.contact} onClick={handleLinkClick}>Contact</Link>
+                        <Link href="#contact" className={styles.contact} onClick={handleLinkClick}>Contact</Link>
                     </div>
                 </div>
             </div>

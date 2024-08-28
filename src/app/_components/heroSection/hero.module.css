@@ -11,7 +11,7 @@
 }
 
 .video {
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     object-fit: cover;
 }
@@ -62,6 +62,13 @@
     gap: 1rem;
 }
 
+.text h3 {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
 .text p {
     font-size: 1.1rem;
     line-height: 1.5;
@@ -92,6 +99,25 @@
     background-color: rgba(170, 170, 170, 0.8);
 }
 
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+}
+
+.socials a {
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.socials a:hover {
+    scale: 1.1;
+}
+
+.instagram a:hover {
+    background-color: #833AB4;
+}
+
 @media(width<=820px) {
     .heroContent {
         padding: 4rem 2rem;
@@ -116,7 +142,7 @@
 
 @media(width<=578px) {
     .heroContent {
-        padding: 2.5rem 1rem;
+        padding: 0.5rem 1rem;
     }
 
     .stats {
@@ -124,7 +150,7 @@
     }
 
     .stats span {
-        padding: .5rem 1.5rem;
-        font-size: 1.2rem;
+        padding: .5rem 1rem;
+        font-size: 0.7rem;
     }
 }

@@ -40,7 +40,7 @@ export default function Showcase() {
                             <Image
                                 src={item.img}
                                 alt={item.title}
-                                width={500}
+                                width={300}
                                 height={500}
                             />
                         </div>
