@@ -1,6 +1,6 @@
 import styles from './footer.module.css'
 import Link from 'next/link'
-import { FaLinkedinIn, FaXTwitter, FaInstagram, FaPhone } from "react-icons/fa6";
+import { FaPhone } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 
 export default function Footer() {
@@ -15,11 +15,15 @@ export default function Footer() {
                     <div className={styles.contacts}>
                         <div className={styles.contactIcons}>
                             <Link href="#"><FaPhone /></Link>
-                            <span style={{marginLeft: '1rem'}}>+91 9037210582</span>
+                            <span style={{marginLeft: '1rem'}}>+91 7025907742</span>
+                        </div>
+                        <div className={styles.contactIcons}>
+                            <Link href="#"><FaPhone /></Link>
+                            <span style={{marginLeft: '1rem'}}>+91 7306036556</span>
                         </div>
                         <div className={styles.contactIcons}>
                             <Link href="#"><MdOutlineEmail /></Link>
-                            <span style={{marginLeft: '1rem'}}>anilantony3134@gmail.com</span>
+                            <span style={{marginLeft: '1rem'}}>wackopixofficial@gmail.com</span>
                         </div>
                     </div>
                 </div>

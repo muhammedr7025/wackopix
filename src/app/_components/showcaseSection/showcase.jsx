@@ -8,7 +8,7 @@ import { YouTubeEmbed } from '@next/third-parties/google';
 
 export default function Showcase() {
     const [selectedVideo, setSelectedVideo] = useState(null);
-    const [visibleProjects, setVisibleProjects] = useState(6); // Initial number of visible projects
+    const [visibleProjects, setVisibleProjects] = useState(4); // Initial number of visible projects
 
     const handleCardClick = (videoId) => {
         setSelectedVideo(videoId);
@@ -23,9 +23,9 @@ export default function Showcase() {
         e.stopPropagation();
     };
 
-    const handleLoadMore = () => {
-        setVisibleProjects(visibleProjects + 3); // Increment visible projects by 3
-    };
+    // const handleLoadMore = () => {
+    //     setVisibleProjects(visibleProjects + 3); // Increment visible projects by 3
+    // };
 
     return (
         <div className={styles.showcase} id='works'>
@@ -38,6 +38,7 @@ export default function Showcase() {
                     <div className={styles.card} key={index} onClick={() => handleCardClick(item.youtube)}>
                         <div className={styles.box}>
                             <Image
+                                // src={`http://img.youtube.com/vi/${item.youtube}/1.jpg`}
                                 src={item.img}
                                 alt={item.title}
                                 width={300}
@@ -50,9 +51,9 @@ export default function Showcase() {
                 ))}
             </div>
 
-            {visibleProjects < projects.length && (
+            {/* {visibleProjects < projects.length && (
                 <button className={styles.loadBtn} onClick={handleLoadMore}><b>Load More</b></button>
-            )}
+            )} */}
 
             {selectedVideo && (
                 <div className={styles.popup} onClick={handleClosePopup}>

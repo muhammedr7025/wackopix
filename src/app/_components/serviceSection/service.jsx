@@ -9,22 +9,26 @@ const data = [
     {
         img: s1,
         title: "Live Event",
-        subtitle: "Videography",
+        subtitle: "Coverage",
+        video: "/assets/liveEvent.mp4"
     },
     {
         img: s2,
-        title: "Event Photography",
-        subtitle: "Management",
+        title: "Promotional",
+        subtitle: "Videos",
+        video: "/assets/socmed.mp4"
     },
     {
         img: s3,
         title: "Comprehensive",
         subtitle: "Content Creation",
+        video: "/assets/corp.mp4"
     },
     {
         img: s4,
         title: "Corporate Video",
         subtitle: "Production",
+        video: "/assets/event.mp4"
     },
 ]
 
@@ -36,7 +40,7 @@ export default function Service() {
                 {
                     data.map((item, index) => (
                         <div className={styles.card} key={index}>
-                            {/* <video
+                            <video
                                 autoPlay
                                 loop
                                 muted
@@ -44,16 +48,16 @@ export default function Service() {
                             >
                                 <source
                                     id='webm'
-                                    src='/assets/hero.mp4'
+                                    src={item.video}
                                     type='video/mp4'
                                 />
-                            </video> */}
-                            <Image
+                            </video>
+                            {/* <Image
                                 src={item.img}
                                 alt={item.title}
                                 width={800}
                                 height={800}
-                            />
+                            /> */}
                             <div className={styles.text}>
                                 <h2>{item.title}</h2>
                                 <p>{item.subtitle}</p>
