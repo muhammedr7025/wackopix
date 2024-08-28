@@ -9,15 +9,15 @@ export const projects = [
   },
   {
     img: dummy,
-    title: "Project Name",
+    title: "College Onam Festival Aftermovie",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-    youtube: "xvFZjo5PgG0",
+    youtube: "N7c1NErb2_Y",
   },
   {
     img: dummy,
-    title: "Project Name",
+    title: "Trenser Technology Solutions Innugration Event",
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
-    youtube: "xvFZjo5PgG0",
+    youtube: "5oGVrNe6rvk",
   },
   {
     img: dummy,
